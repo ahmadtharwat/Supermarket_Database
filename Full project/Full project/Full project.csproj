@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B7D78CC-D31A-4BC8-A607-73B9A5AD3074}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Full_project</RootNamespace>
+    <AssemblyName>Full project</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_customer_functions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_customer_functions.Designer.cs">
+      <DependentUpon>Admin_customer_functions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_customer_remove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_customer_remove.Designer.cs">
+      <DependentUpon>Admin_customer_remove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_customer_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_customer_update.Designer.cs">
+      <DependentUpon>Admin_customer_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_functions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_functions.Designer.cs">
+      <DependentUpon>Admin_functions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_login_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_login_form.Designer.cs">
+      <DependentUpon>Admin_login_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_other_functions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_other_functions.Designer.cs">
+      <DependentUpon>Admin_other_functions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_product_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_product_add.Designer.cs">
+      <DependentUpon>Admin_product_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_product_function.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_product_function.Designer.cs">
+      <DependentUpon>Admin_product_function.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_product_remove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_product_remove.Designer.cs">
+      <DependentUpon>Admin_product_remove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_product_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_product_update.Designer.cs">
+      <DependentUpon>Admin_product_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_signup_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_signup_customer.Designer.cs">
+      <DependentUpon>Admin_signup_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer  Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer  Main.Designer.cs">
+      <DependentUpon>Customer  Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_login_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_login_form.Designer.cs">
+      <DependentUpon>Customer_login_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_profile.Designer.cs">
+      <DependentUpon>Customer_profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_signup.Designer.cs">
+      <DependentUpon>Customer_signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_update_profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_update_profile.Designer.cs">
+      <DependentUpon>Customer_update_profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_display_products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_display_products.Designer.cs">
+      <DependentUpon>Customer_display_products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Search_product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Search_product.Designer.cs">
+      <DependentUpon>Customer_Search_product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Admin_customer_functions.resx">
+      <DependentUpon>Admin_customer_functions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_customer_remove.resx">
+      <DependentUpon>Admin_customer_remove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_customer_update.resx">
+      <DependentUpon>Admin_customer_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_functions.resx">
+      <DependentUpon>Admin_functions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_login_form.resx">
+      <DependentUpon>Admin_login_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_other_functions.resx">
+      <DependentUpon>Admin_other_functions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_product_add.resx">
+      <DependentUpon>Admin_product_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_product_function.resx">
+      <DependentUpon>Admin_product_function.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_product_remove.resx">
+      <DependentUpon>Admin_product_remove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_product_update.resx">
+      <DependentUpon>Admin_product_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_signup_customer.resx">
+      <DependentUpon>Admin_signup_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer  Main.resx">
+      <DependentUpon>Customer  Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_login_form.resx">
+      <DependentUpon>Customer_login_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_profile.resx">
+      <DependentUpon>Customer_profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_signup.resx">
+      <DependentUpon>Customer_signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_update_profile.resx">
+      <DependentUpon>Customer_update_profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_display_products.resx">
+      <DependentUpon>Customer_display_products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Search_product.resx">
+      <DependentUpon>Customer_Search_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

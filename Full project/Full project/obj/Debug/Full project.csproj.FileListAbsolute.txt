@@ -1,0 +1,27 @@
+c:\users\عمر\documents\visual studio 2013\Projects\Full project\Full project\bin\Debug\Full project.exe.config
+c:\users\عمر\documents\visual studio 2013\Projects\Full project\Full project\bin\Debug\Full project.exe
+c:\users\عمر\documents\visual studio 2013\Projects\Full project\Full project\bin\Debug\Full project.pdb
+c:\users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full project.csprojResolveAssemblyReference.cache
+c:\users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Customer__Main.resources
+c:\users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Main.resources
+c:\users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Properties.Resources.resources
+c:\users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full project.csproj.GenerateResource.Cache
+c:\users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full project.exe
+c:\users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full project.pdb
+c:\users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Customer_signup.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Customer_login_form.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Customer_profile.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Customer_update_profile.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Customer_display_products.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Customer_Search_product.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Admin_customer_functions.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Admin_functions.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Admin_login_form.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Admin_signup_customer.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Admin_customer_remove.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Admin_customer_update.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Admin_other_functions.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Admin_product_add.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Admin_product_function.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Admin_product_remove.resources
+C:\Users\عمر\documents\visual studio 2013\Projects\Full project\Full project\obj\Debug\Full_project.Admin_product_update.resources
